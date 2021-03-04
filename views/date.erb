@@ -9,7 +9,7 @@ require "pry"
       <p>
         
        <% d =  DateTime.new %>
-        <% today = d.today.strftime('%A,_%B_%e,_%Y') %>
+        <% today = d.strftime('%A,_%B_%e,_%Y') %>
         <%= "The date is" + " " + today %>
       </p>
       </body>
