@@ -7,8 +7,9 @@ require "pry"
     <body>
       <h1>Today</h1>
       <p>
-        binding.pry
-        <% today = DateTime.today.strftime('%A,_%B_%e,_%Y') %>
+        
+       <% d =  DateTime.new %>
+        <% today = d.today.strftime('%A,_%B_%e,_%Y') %>
         <%= "The date is" + " " + today %>
       </p>
       </body>
